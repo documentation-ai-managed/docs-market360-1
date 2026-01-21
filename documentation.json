@@ -1,0 +1,125 @@
+{
+  "name": "Market360",
+  "initialRoute": "introduction",
+  "colors": {
+    "light": {
+      "brand": "#27b95d"
+    },
+    "dark": {
+      "brand": "#5dcb86"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "icon": "book",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "icon": "rocket",
+            "pages": [
+              {
+                "title": "Introduction",
+                "path": "introduction",
+                "icon": "star"
+              },
+              {
+                "title": "Quick Start",
+                "path": "quickstart",
+                "icon": "zap"
+              }
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "icon": "layers",
+            "pages": [
+              {
+                "title": "Features",
+                "path": "features",
+                "icon": "list"
+              }
+            ]
+          },
+          {
+            "group": "Advanced",
+            "icon": "puzzle",
+            "pages": [
+              {
+                "title": "Integrations",
+                "path": "integrations",
+                "icon": "plug"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "icon": "code",
+        "groups": [
+          {
+            "group": "Endpoints",
+            "openapi": "openapi.yaml"
+          }
+        ]
+      },
+      {
+        "tab": "Help Center",
+        "icon": "help-circle",
+        "pages": [
+          {
+            "title": "Help Center",
+            "path": "help-center",
+            "icon": "home"
+          },
+          {
+            "group": "FAQs",
+            "icon": "help-circle",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "How to Post an Ad",
+                "path": "help-center/faq/how-to-post-an-ad"
+              }
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "icon": "alert-triangle",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "Cannot Upload Photos",
+                "path": "help-center/troubleshooting/cannot-upload-photos"
+              }
+            ]
+          },
+          {
+            "group": "Guides",
+            "icon": "book-open",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "Create an Account",
+                "path": "help-center/guides/create-account"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "icon": "clock",
+        "pages": [
+          {
+            "title": "Release History",
+            "path": "changelog",
+            "icon": "history"
+          }
+        ]
+      }
+    ]
+  }
+}
